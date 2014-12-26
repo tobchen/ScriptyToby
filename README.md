@@ -15,3 +15,9 @@ Examples:
 - sHello - becomes a C string (zero terminated) with value Hello
 
 For more info call: tobinary.py -h
+
+## Rezip ##
+
+A Python 3 script to possibly rezip a directory.
+
+Takes a directory and a zip-archive (or the path where one wants to write one to) and checks recursively if any file in the directory is newer than the archive and archives the directory anew.

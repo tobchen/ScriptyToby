@@ -6,14 +6,13 @@ import struct
 
 
 # Variables to be used
-input_name = None
 output_name = None
 use_bigendian = True
 
 # Parse for arguments
 parser = argparse.ArgumentParser(
     description="Create binary file from plain text file, "
-    +"supported types: c (char), i (32b integer), f (32b float), s (C string)")
+    + "supported types: c (char), i (32b integer), f (32b float), s (C string)")
 parser.add_argument("file", help="file to read from")
 parser.add_argument("-o", "--output", metavar="out", help="specify output filename")
 parser.add_argument("-l", "--littleendian", help="use little endian", action="store_true")
