@@ -195,6 +195,7 @@ for frame in frames:
     output_file.write(struct.pack(">i", int(frame.off_y)))
     output_file.write(struct.pack(">i", int(frame.width)))
     output_file.write(struct.pack(">i", int(frame.height)))
+output_file.close()
 
 # File specification:
 # frame_width: int, frame_height: int, frame_count: int
