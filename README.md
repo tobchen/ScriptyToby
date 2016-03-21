@@ -1,6 +1,29 @@
-# ScriptyToby #
+## Bingo ##
 
-A collection of useful scripts by Tobchen (me).
+A Python 3 bingo finder.
+
+Takes paths to a bingo card file and a numbers file and looks for bingos.
+
+Bingo cards are read row-wise line by line, each line with comma-separated
+numbers. Cards are separated by empty lines. For example a file with two 2x2
+cards:
+```
+10, 2
+32,33
+
+31,53
+ 3,79
+```
+Numbers are read line by line. While lines can have multiple comma-separated
+integers only the first value of each line is considered to be a valid number.
+(This way the numbers file can also track how often the same number has been
+drawn.) Example:
+```
+5
+13,4
+1
+99
+```
 
 ## Rezip ##
 
@@ -9,6 +32,10 @@ A Python 3 script to possibly rezip a directory.
 Takes a directory and a zip-archive (or the path where one wants to write one
 to) and checks recursively if any file in the directory is newer than the
 archive and archives the directory anew.
+
+# ScriptyToby #
+
+A collection of useful scripts by Tobchen (me).
 
 ## Spritepack ##
 
