@@ -1,3 +1,15 @@
+# ScriptyToby #
+
+A collection of useful scripts by Tobchen (me).
+
+## Rezip ##
+
+A Python 3 script to possibly rezip a directory.
+
+Takes a directory and a zip-archive (or the path where one wants to write one
+to) and checks recursively if any file in the directory is newer than the
+archive and archives the directory anew.
+
 ## Bingo ##
 
 A Python 3 bingo finder.
@@ -24,18 +36,6 @@ drawn.) Example:
 1
 99
 ```
-
-## Rezip ##
-
-A Python 3 script to possibly rezip a directory.
-
-Takes a directory and a zip-archive (or the path where one wants to write one
-to) and checks recursively if any file in the directory is newer than the
-archive and archives the directory anew.
-
-# ScriptyToby #
-
-A collection of useful scripts by Tobchen (me).
 
 ## Spritepack ##
 
